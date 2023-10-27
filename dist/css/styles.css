@@ -237,7 +237,7 @@ sup {
 }
 
 a {
-  color: rgba(var(--bs-primary-rgb));
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity));
   text-decoration: underline;
 }
 a:hover {
