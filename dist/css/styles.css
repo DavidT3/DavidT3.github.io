@@ -11441,11 +11441,31 @@ section.resume-section .resume-section-content {
     padding-top: 19.5rem;
     padding-bottom: 5rem;
     width:1137px;
-    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('background.png');
+    background-image:url('background.png');
     background-repeat:no-repeat
   }
 }
 
+.back{
+    width:1137px;
+    height:443px;
+    background-image:url('background.png');    
+}
+    .back img {
+        display: block;
+    }
+
+/* @media (min-width: 992px) {
+  section.FIRSTresume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 19.5rem;
+    padding-bottom: 5rem;
+    width:1137px;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('background.png');
+    background-repeat:no-repeat
+  }
+}
 
 .back{
     width:1137px;
@@ -11456,4 +11476,4 @@ section.resume-section .resume-section-content {
 }
     .back img {
         display: block;
-    }
+    } */
